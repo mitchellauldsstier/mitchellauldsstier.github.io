@@ -13,7 +13,7 @@
 </script>
 
     <meta charset="UTF-8">
-    <title>Mtichell Aulds-Stier</title>
+    <title>Mitchell Aulds-Stier</title>
     
     
     <link rel="stylesheet" href="css/normalize.css">
@@ -101,11 +101,11 @@ body {
   background-color: white;
 }
 #card.white #card__buttons a[data-social] {
-  color: #C0392B;
+  color: #474747 !important;
 }
 #card.white #card__buttons a[data-social]:not(.active):hover {
-  color: #C0392B;
-  border-color: #C0392B;
+  color: #474747;
+  border-color: #474747;
 }
 #card #top-bar__back-btn {
 transition-property: opacity;
@@ -132,68 +132,83 @@ transition-property: opacity;
 }            
             
 #card #card__buttons {
-  padding:5px !important;
-    padding-left: 0px !important;
+  
+   
     transform: translateX(-10px) !important;
+     transform: translateY(-10px) !important;
+ 
+    position: fixed !important; 
 }
 #card #card__buttons a {
   color: white;
-  border: 2px solid transparent;
+  border: 0px solid transparent;
   border-radius: 100px;
-  width: 40px;
-  height: 40px;
-  line-height: 38px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
-  padding: 0;
+  padding: 10px;
   margin: 0 5px;
     transition: all 0.4s linear; 
   position: relative;
   z-index: 8;
+    transform: translateX(-15px);
 }
 #card #card__buttons a[data-social=none].active, #card #card__buttons a[data-social=none]:hover {
-  color: #C0392B;
-  border-color: #C0392B;
+  color: #A5CDF2;
+  border-color: #A5CDF2;
 }
 #card #card__buttons a[data-social=dribbble].active, #card #card__buttons a[data-social=dribbble]:hover {
-  color: #42A4E0 !important;
-  border-color: #42A4E0;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 }
+ #card #card__buttons a[data-social=volunteer].active, #card #card__buttons a[data-social=volunteer]:hover {
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
+}   
+            
+             #card #card__buttons a[data-social=career].active, #card #card__buttons a[data-social=career]:hover {
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
+}   
+            
+            
 #card #card__buttons a[data=fb].active, #card #card__buttons a[data=fb]:hover {
-  color: #3b5998 !important;
-  border-color: #3b5998;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 } 
 #card #card__buttons a[data=twitter].active, #card #card__buttons a[data=twitter]:hover {
-  color: #00aced !important;
-  border-color: #00aced;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 } 
 
 #card #card__buttons a[data=instagram].active, #card #card__buttons a[data=instagram]:hover {
-  color: #517fa4 !important;
-  border-color: #517fa4;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 } 
 
 #card #card__buttons a[data=snapchat].active, #card #card__buttons a[data=snapchat]:hover {
-  color: #fffc00 !important;
-  border-color: #fffc00;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 } 
             
             #card #card__buttons a[data=gmail].active, #card #card__buttons a[data=gmail]:hover {
-  color: #dd4b39 !important;
-  border-color: #dd4b39;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 }
             
 #card #card__buttons a[data-social=behance].active, #card #card__buttons a[data-social=behance]:hover {
-  color: #81CFE0 !important;
-  border-color: #81CFE0;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 }
 #card #card__buttons a[data-social=peloton].active, #card #card__buttons a[data-social=peloton]:hover {
-  color: #79BAC4 !important;
-  border-color: #79BAC4;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 }
             
 #card #card__buttons a[data-social=nielsen].active, #card #card__buttons a[data-social=nielsen]:hover {
-  color: #329DDC !important;
-  border-color: #329DDC;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 }
      
             
@@ -205,34 +220,32 @@ transition-property: opacity;
             
             
 #card #card__buttons a[data-social=about].active, #card #card__buttons a[data-social=about]:hover {
-  color: #4EB347 !important;
-  border-color: #4EB347;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 }
             
 #card #card__buttons a[data=linkedin].active, #card #card__buttons a[data=linkedin]:hover {
-  color: #006699 !important;
-  border-color: #006699;
+  color: #A5CDF2 !important;
+  border-color: #A5CDF2;
 }            
 
 #card #card__buttons a[data-social=twitter].active, #card #card__buttons a[data-social=twitter]:hover {
-  color: #55acee;
-  border-color: #55acee;
+  color: #A5CDF2;
+  border-color: #A5CDF2;
 }
 #card #card__buttons a[data-social=instagram].active, #card #card__buttons a[data-social=instagram]:hover {
-  color: #3f729b;
-  border-color: #3f729b;
+  color: #A5CDF2;
+  border-color: #A5CDF2;
 }
 #card #card__buttons a[data-social=snapchat].active, #card #card__buttons a[data-social=snapchat]:hover {
-  color: #fffc00;
-  border-color: #fffc00;
+  color: #A5CDF2;
+  border-color: #A5CDF2;
 }
 #card #card__buttons a[data-social=vimeo].active, #card #card__buttons a[data-social=vimeo]:hover {
-  color: #1ab7ea;
-  border-color: #1ab7ea;
+  color: #A5CDF2;
+  border-color: #A5CDF2;
 }
-#card #card__buttons a.active {
-  background-color: #C0392B;
-}
+
 
 #card__top-bar {
   display: flex;
@@ -295,7 +308,7 @@ margin-right: -45px !important;
 }
 
 .single-tab {
-  transition: opacity 1.2s;
+  transition: opacity 0s;
   position: absolute;
   z-index: 5;
   top: 0;
@@ -312,18 +325,16 @@ margin-right: -45px !important;
   opacity: 1;
 }
 .single-tab.active .singe-tab__image {
-  transform: translateX(-390px);
-  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s;
+  transform: translateX(-395px);
     max-height: 80% !important;
     max-width: 400px !important;
-    margin-top: -57px !important;
+    margin-top: -47px !important;
     
     align-content: center !important;
 }
             
 .single-tab.active .singe-tab__imageL {
   transform: translateX(-600px);
-  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s;
     max-height: 100% !important;
     max-width: 660px !important;
     margin-top: -20px !important;
@@ -333,7 +344,6 @@ margin-right: -45px !important;
             
 .single-tab.active .singe-tab__imageR {
   transform: translateX(-400px);
-  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s;
     max-height: 100% !important;
     max-width: 360px !important;
     margin-top: -20px !important;
@@ -343,7 +353,6 @@ margin-right: -45px !important;
 
 .single-tab.active .singe-tab__image2 {
   transform: translateX(-430px) !important;
-  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s !important;
     height: 400px !important;
     width: 180px !important;
     margin-top: 90px !important; 
@@ -352,7 +361,6 @@ margin-right: -45px !important;
             
 .single-tab.active .singe-tab__image3 {
   transform: translateX(-450px) !important;
-  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s !important;
     height: 400px !important;
     width: 200px !important;
     margin-top: 100px !important; 
@@ -360,7 +368,6 @@ margin-right: -45px !important;
 } 
 .single-tab.active .singe-tab__image4 {
   transform: translateX(500px) !important;
-  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s !important;
     height: 400px !important;
     width: 200px !important;
     margin-top: 100px !important; 
@@ -369,14 +376,14 @@ margin-right: -45px !important;
             
 .single-tab.active .singe-tab__image4 {
   transform: translateX(-733px) !important;
-  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s !important;
+    height: 400px !important;
     height: 400px !important;
     width: 250px !important;
     margin-top: 60px !important; 
     
 } 
     
-            .menu a { color: #96281B !important; text-decoration: none !important;
+            .menu a { color: #474747!important; text-decoration: none !important;
             font-size: 15px !important;
             padding-top: -100px !important;}   
             
@@ -393,10 +400,12 @@ margin-right: -45px !important;
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 0px;
+  margin-bottom: -5px;
+    margin-left: -25px !important;
     margin-top: -42px !important;
+    max-width: 280px !important;
 }             
-span.sign {padding-top: 10px !important;
+.single-tab activespan .sign {padding-top: 10px !important;
    max-width: 1% !important;
     padding-bottom: -100px !important;
             }
@@ -404,7 +413,12 @@ span.sign {padding-top: 10px !important;
             span. b {padding-top:10px !important;
             }
             span.textsign br {margin:0px !important;}
-span.custom1 {
+
+            span.sign img {max-width: 60% !important;
+                padding-top: -10px !important;
+            }           
+            
+            span.custom1 {
   line-height: 1;
   text-transform: uppercase;
   font-size: 1.7rem;
@@ -479,10 +493,29 @@ span.newstoryright b, strong {
     font-weight: 400 !important;
 }
 .single-tab__contentblack {
-  font-size: .8rem !important;
+  font-size: .78rem !important;
   width: 50%;
     color: black ;
-    padding-top: 30px !important;
+    padding-top: 10px !important;
+   transition: opacity .25s ease-in-out !important;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+            }
+            
+            .single-tab__contentblack1 {
+  font-size: .78rem !important;
+  width: 50%;
+    color: black ;
+    padding-top: 25px !important;
+   transition: opacity .25s ease-in-out !important;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+                padding-bottom: -40px !important;
+            }
+            
+            
+.single-tab__contentblack  {
+ line-height:20px !important;
 }
 
     
@@ -534,7 +567,6 @@ span.newstoryright b, strong {
   transform: translateX(0);
  max-height: 100% !important; 
     max-width: 250px !important;
-  transition: all 0.1s;
   margin: 0;
   position: absolute;
   right: -400px;
@@ -603,7 +635,7 @@ span.newstoryright b, strong {
   font-size: 80%;
 }
 
-#card__credits a { color: #C0392B !important;}
+#card__credits a { color: #F4816F !important;}
    #card  #tabs__tab-dribbble #card__buttons {display: none !important;}
 
 
@@ -612,7 +644,7 @@ span.newstoryright b, strong {
   position: absolute;
   animation-name: expandCircleOverlay;
   transform: scale(1);
-  animation-duration: 2s;
+  animation-duration: 0s;
   z-index: 5;
  width: 1180px;
   height: 1180px;
@@ -623,7 +655,7 @@ span.newstoryright b, strong {
   position: absolute;
   animation-name: expandCircleOverlay;
   transform: scale(1);
-  animation-duration: 2.5s;
+  animation-duration: 0s;
   z-index: 5;
   width: 1850px;
   height: 1850px;
@@ -634,7 +666,7 @@ span.newstoryright b, strong {
   position: absolute;
   animation-name: expandCircleOverlay;
   transform: scale(1);
-  animation-duration: 2s;
+  animation-duration: 0s;
   z-index: 5;
  width: 1850px; !important;
   height: 1850px; !important;
@@ -646,7 +678,7 @@ span.newstoryright b, strong {
   position: absolute;
   animation-name: expandCircleOverlay;
   transform: scale(1);
-  animation-duration: 2s;
+  animation-duration: 1s;
   z-index: 5;
  width: 1850px; !important;
   height: 1850px; !important;
@@ -713,8 +745,7 @@ span.newstoryright b, strong {
 }
             
 .circle-overlay.overlay-nielsen {
-  background-color: #38ADF2;
-    background-image:url(https://dl.dropboxusercontent.com/s/4tqfl618490brby/nielsenbackground.png?dl=0) !important;
+  background-color: transparent ;
     background-size: 130% ;
 
 }            
@@ -768,73 +799,219 @@ span.newstoryright b, strong {
    
       </div>
     <div id="tabs__tab-main" class="single-tab active" data-tab-name="main">
-      <div class="single-tab__headerM">
-        <img src="https://dl.dropboxusercontent.com/s/k762r1s3aigqk6z/logo%20sized.png?dl=0" alt=""/>
+      <div class="single-tab__headerM"><a href="index.html">
+          <img src="https://dl.dropboxusercontent.com/s/5prf27exovvlw2g/logoblue.png?dl=0" alt=""/></a>
       </div>
-      <div class="single-tab__contentblack">
-        <p>
-     Mitchell is a devoted community activist and volunteer with a passion for investing. Born in 1989 in Redkey, Indiana, he was raised to ask questions and explore his interests. From a young age, Mitchell exhibited his precocious side – reading voraciously, disassembling electronics, and pursuing quantitative challenges. During high school, he became captivated by the financial markets after learning about their complexity – markets are an enigma that devoted professionals fail to conquer. There is no truer an illustration of this than the Great Financial Crisis.<br>
+      <div class="single-tab__contentblack1">
+        <p><br><br>
+     Born in 1989 in Redkey, Indiana, I was raised to ask questions and explore my interests. From a young age, I exhibited my precocious side – reading voraciously, disassembling electronics, and pursuing quantitative challenges. During high school, I became captivated by the financial markets after learning about their complexity – markets are an enigma that devoted professionals fail to conquer. There is no truer an illustration of this than the Great Financial Crisis.<br>
             <br>
-Currently, Mitchell focuses on investing in private, middle-market companies in a variety of sectors.  As a private equity professional, Mitchell has  substantial involvement in transaction evaluation, execution, portfolio monitoring and harvesting of control and minority stakes in distressed, stable, and growing companies. His industry experience to date includes niche manufacturing, distribution, business services, consumer retail, as well as healthcare and education. In addition to his career, he works with several non-profit organizations that engage in community development and poverty alleviation.
+Currently, I focus on investing in private, middle-market companies in a variety of sectors. As a private equity professional, I have substantial involvement in transaction evaluation, execution, portfolio monitoring and harvesting of control and minority stakes in distressed, stable, and growing companies. My industry experience includes niche manufacturing, distribution, business services, consumer retail, as well as healthcare and education. In addition to my career in finance, I work with several non-profit organizations that engage in community development and poverty alleviation.
         </p>
           <span class="textsign">
               <b>&mdash;</b></span>
-          <span class="sign"><img src="https://dl.dropboxusercontent.com/s/ljs3sbx7dawoxeg/small%20signature.png?dl=0" alt=""/></span>
+          <span class="sign"><img src="https://dl.dropboxusercontent.com/s/wq6xfubk0kudls5/mitchell%20signature.png?dl=0" alt=""/></span>
       </div>
       <figure class="singe-tab__image">
-        <img src="https://dl.dropboxusercontent.com/s/ugi93s3j67eto7o/Mitchell%20Aulds-Stier_4279.jpg?dl=0" alt=""/>
+        <img src="https://dl.dropboxusercontent.com/s/z7bnww2u5sb05og/backgroundblue.png?dl=0" alt=""/>
       </figure>
         
         
         <div id="card__buttons">
     <ul class="menu">
           <li>
-        <a href="#" data-social="nielsen" class="fa fa-dribbble fa-lg"></a>
+        <a href="#" data-social="nielsen" class="fa fa-graduation-cap fa-lg"></a>
+      </li>
+           <li>
+        <a href="#" data-social="career" class="fa fa-briefcase fa-lg"></a>
       </li>
         <li>
-        <a href="http://www.linkedin.com/in/roshanselladurai" data="linkedin" target="_blank" class="fa fa-linkedin fa-lg"></a>
+        <a href="#" data-social="volunteer" class="fa fa-users fa-lg"></a>
       </li>
         <li>
-        <a href="http://www.facebook.com/roshan.selladurai" data="fb" target="_blank" class="fa fa-facebook fa-lg"></a>
+        <a href="https://www.linkedin.com/in/mitchellauldsstier" data="linkedin" target="_blank" class="fa fa-linkedin fa-lg"></a>
       </li>
         <li>
-        <a href="http://www.twitter.com/roshofosho456" data="twitter" target="_blank" class="fa fa-twitter fa-lg"></a>
+        <a href="http://www.twitter.com/mauldsstier" data="twitter" target="_blank" class="fa fa-twitter fa-lg"></a>
       </li>
-        <li>
-        <a href="http://www.instagram.com/therealrosho" data="instagram" target="_blank" class="fa fa-instagram fa-lg"></a>
-      </li>
-        <li>
-        <a href="http://www.snapchat.com/add/roshofosho456" data="snapchat" target="_blank" class="fa fa-snapchat-ghost fa-lg"></a>
-        </li>
         <li>
         <a href="mailto:roshan.selladurai@gmail.com" data="gmail" target="_blank" class="fa fa-envelope fa-lg"></a>
       </li>
     </ul>
         
         
-      </div> </div>
+        </div> </div>
+      
+      <div id="tabs__tab-nielsen" class="single-tab" data-tab-name="nielsen">
 
-     
-      <div id="tabs__tab-dribbble" class="single-tab" data-tab-name="dribbble">
-     <div class="single-tab__header">
-        <div><br></div>
-           <div><br></div>
-          <div><br></div>
-       <span class="my">Peloton Wealth Strategists</span>
-       Growth Marketer
+          <div class="single-tab__headerM"><a href="index.html">
+          <img src="https://dl.dropboxusercontent.com/s/5prf27exovvlw2g/logoblue.png?dl=0" alt=""/></a>
       </div>
-          <br>
-      <div class="single-tab__content">
-        <p>
-          Connecting donors to homeless families in danger to create life changing stories.
+      <div class="single-tab__contentblack">
+        <p><br>
+     E D U C A T I O N<br>
+            
+            Mitchell graduated from the Kelley School of Business of Indiana University in 2012 earning a Bachelor of Science degree in Business while majoring in both Finance and Management. He was ranked third in his class of 500 students, earning Highest Distinction.<br><br>
+            
+            During his undergraduate studies, Mitchell immersed himself in finance courses and a number of extracurricular and leadership activities. He was part of the Finance Development Enterprise Program (FDEP, a program typically designated for MBA students and organized by the Chair of the Evening MBA Program) which then led to an internship at a local, buy-side mergers and acquisitions practice. Additionally, in December of 2012, he was sponsored by the Dean of Research at the Kelley School to sit for the Chartered Financial Analyst Level I Exam.<br><br>
+            
+In the coming months, Mitchell plans to apply to graduate school to earn his Masters in Business Administration. He is currently working through the application process and visiting a variety of campuses including Columbia, Yale, Harvard, Wharton, and the University of Chicago. He has taken the GMAT and is excited to see where these new experiences will lead.
+            
+            <br><br>
         </p>
-          <p>
-          Backed by Y Combinator</p>
-        <a href="http://www.newstorycharity.org/" target="_blank" class="button hollow">Learn More</a>
       </div>
+      <figure class="singe-tab__image">
+        <img src="https://dl.dropboxusercontent.com/s/z7bnww2u5sb05og/backgroundblue.png?dl=0" alt=""/>
+      </figure> 
+          
+          
+           <div id="card__buttons">
+     <ul class="menu">
+          <li>
+        <a href="#" data-social="nielsen" class="fa fa-graduation-cap fa-lg"></a>
+      </li>
+           <li>
+        <a href="#" data-social="career" class="fa fa-briefcase fa-lg"></a>
+      </li>
+        <li>
+        <a href="#" data-social="volunteer" class="fa fa-users fa-lg"></a>
+      </li>
+        <li>
+        <a href="https://www.linkedin.com/in/mitchellauldsstier" data="linkedin" target="_blank" class="fa fa-linkedin fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.twitter.com/mauldsstier" data="twitter" target="_blank" class="fa fa-twitter fa-lg"></a>
+      </li>
+        <li>
+        <a href="mailto:roshan.selladurai@gmail.com" data="gmail" target="_blank" class="fa fa-envelope fa-lg"></a>
+      </li>
+    </ul>
+        
+        
+        </div>
+          
       </div>
       
-   
+   <div id="tabs__tab-career" class="single-tab" data-tab-name="career">
+
+          <div class="single-tab__headerM"><a href="index.html">
+          <img src="https://dl.dropboxusercontent.com/s/5prf27exovvlw2g/logoblue.png?dl=0" alt=""/></a>
+      </div>
+      <div class="single-tab__contentblack">
+        <p><br>
+            C A R E E R<br>
+
+Mitchell began his career in investment banking with BB&amp;T Capital Markets, a southeastern, regional investment bank headquartered in Richmond, Virginia. As an associate in the bank’s Leadership Development Program (LDP), he was designated as a Capital Markets Associate focusing on the areas of investment banking, equity research, and sales and trading.<br><br>
+            
+            Ultimately, he was selected to join the debt capital markets team within investment banking. He spent the next several years working with industry-leading professionals to raise capital from institutional investors for projects in the education, healthcare, and affordable housing sectors. Following this, Mitchell transitioned to the associate role with Pittsburgh’s largest private equity investment fund. Currently, Mitchell focuses on investing in private, middle-market companies in a variety of sectors.<br><br><br><br><br><br><br>
+            <br>
+        </p>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="https://dl.dropboxusercontent.com/s/z7bnww2u5sb05og/backgroundblue.png?dl=0" alt=""/>
+      </figure> 
+          
+          
+           <div id="card__buttons">
+     <ul class="menu">
+          <li>
+        <a href="#" data-social="nielsen" class="fa fa-graduation-cap fa-lg"></a>
+      </li>
+           <li>
+        <a href="#" data-social="career" class="fa fa-briefcase fa-lg"></a>
+      </li>
+        <li>
+        <a href="#" data-social="volunteer" class="fa fa-users fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.linkedin.com/in/mitchellauldsstier" data="linkedin" target="_blank" class="fa fa-linkedin fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.twitter.com/mauldsstier" data="twitter" target="_blank" class="fa fa-twitter fa-lg"></a>
+      </li>
+        <li>
+        <a href="mailto:roshan.selladurai@gmail.com" data="gmail" target="_blank" class="fa fa-envelope fa-lg"></a>
+      </li>
+    </ul>
+        
+        
+        </div>
+          
+      </div>
+      
+      
+          <div id="tabs__tab-volunteer" class="single-tab" data-tab-name="volunteer">
+
+          <div class="single-tab__headerM"><a href="index.html">
+          <img src="https://dl.dropboxusercontent.com/s/5prf27exovvlw2g/logoblue.png?dl=0" alt=""/></a>
+      </div>
+      <div class="single-tab__contentblack">
+        <p><br>
+    V O L U N T E E R <br>
+            
+           Throughout his life, Mitchell has found many leadership and mentoring opportunities while volunteering with a number of organizations. Some of the organizations he has worked with over the years include:<br><br>
+            
+            <u>United Way of Central Indiana</u><br>
+
+While in Indianapolis completing his undergraduate education, Mitchell began working with United Way of Central Indiana. His responsibilities included compiling presentations for events as well as conducting research and publishing a report focusing on the advancements in donor acquisition and retention strategies.<br><br>
+            
+            <u>Housing Authority of the City of Winston-Salem</u><br>
+
+
+While pursuing his career in Winston-Salem, Mitchell and his colleagues lobbied for funds from BB&amp;T to complete a minor renovation of a local senior housing complex.<br><br>
+            
+             <u>Junior Achievement</u><br>
+
+Mitchell spent two nights per week for six weeks at the Carnegie Library – Sheraden Branch, a severely economically disadvantaged location in the outer limits of the city.
+        </p>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="https://dl.dropboxusercontent.com/s/z7bnww2u5sb05og/backgroundblue.png?dl=0" alt=""/>
+      </figure> 
+          
+          
+           <div id="card__buttons">
+     <ul class="menu">
+          <li>
+        <a href="#" data-social="nielsen" class="fa fa-graduation-cap fa-lg"></a>
+      </li>
+           <li>
+        <a href="#" data-social="career" class="fa fa-briefcase fa-lg"></a>
+      </li>
+        <li>
+        <a href="#" data-social="volunteer" class="fa fa-users fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.linkedin.com/in/mitchellauldsstier" data="linkedin" target="_blank" class="fa fa-linkedin fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.twitter.com/mauldsstier" data="twitter" target="_blank" class="fa fa-twitter fa-lg"></a>
+      </li>
+        <li>
+        <a href="mailto:roshan.selladurai@gmail.com" data="gmail" target="_blank" class="fa fa-envelope fa-lg"></a>
+      </li>
+    </ul>
+        
+        
+        </div>
+          
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       
       <div id="tabs__tab-behance" class="single-tab" data-tab-name="behance">
       <div class="single-tab__header">
@@ -933,7 +1110,7 @@ Currently, Mitchell focuses on investing in private, middle-market companies in 
       </figure>
     </div>
       
-          <div id="tabs__tab-nielsen" class="single-tab" data-tab-name="nielsen">
+          <div id="tabs__tab-nielsens" class="single-tab" data-tab-name="nielsens">
       <div class="single-tab__header">
           <div><br></div>
            <div><br></div>
